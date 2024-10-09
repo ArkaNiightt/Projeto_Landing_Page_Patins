@@ -9,6 +9,10 @@ section.hero {
   justify-content: space-between;
   overflow: hidden;
 
+  /* @media (width <= 80em) {
+    flex-direction: column-reverse;
+  } */
+
   & h1 {
     max-width: 40rem;
   }
